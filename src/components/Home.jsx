@@ -1,6 +1,6 @@
 import React from 'react'
 import '../constants/index'
-import profilePic from "/Users/nikhilkalbande/Desktop/nikhil-kalbande/src/assets/IMG_0321.webp"
+import image from '../assets/IMG_0321.webp'; 
 import { HOME_CONTENTS } from '../constants/index'
 import { motion } from 'framer-motion'
 
@@ -28,7 +28,7 @@ const Home = () => {
             <div className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:p-8">
                     <motion.img 
-                    src={profilePic} 
+                    src={image} 
                     alt="Nikhil Kalbande" 
                     className="border border-stone-900 rounded-3xl"
                     width={450}
